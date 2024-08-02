@@ -1,0 +1,44 @@
+Treino: treino c
+
+Exercício: Flexão de Braços
+Descrição: Deite-se no chão com as mãos apoiadas e os braços estendidos. Flexione os cotovelos e abaixe o corpo até que o peito quase toque o chão, depois empurre de volta para a posição inicial.
+Séries: 4
+Repetições: 12
+Peso: 30.00
+Tempo de Descanso (segundos): 50
+
+Exercício: Agachamento com Barra
+Descrição: Coloque a barra nas costas, afaste os pés na largura dos ombros, agache até que as coxas fiquem paralelas ao chão e volte à posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+
+Exercício: Leg Press
+Descrição: Sente-se no equipamento, coloque os pés na plataforma e empurre-a para longe até que as pernas fiquem quase retas, depois dobre os joelhos e volte à posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+
+Exercício: Cadeira Extensora
+Descrição: Sente-se na máquina, levante os pesos empurrando a plataforma para longe até que as pernas estejam esticadas, depois dobre os joelhos e volte à posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+
+Exercício: Puxada Horizontal
+Descrição: Sente-se na máquina, puxe a barra em direção ao corpo até que ela toque o peito, mantendo os cotovelos próximos ao corpo, depois volte à posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+
+Exercício: Remada Curvada
+Descrição: De pé, segure uma barra com as palmas das mãos voltadas para baixo, flexione os joelhos ligeiramente, incline o tronco para a frente, puxe a barra em direção ao umbigo e depois volte à posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+

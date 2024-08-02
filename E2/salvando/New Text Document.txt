@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Records</title>
+    <link rel="stylesheet" href="recorde.css">
+</head>
+<body>
+    <a href="../pagina/home2.php">Home</a> <!-- Botão para a página inicial -->
+    <?php
+    // Conexão com o banco de dados
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "musclemax";
+
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
+
+    // Consulta para obter registros de exercícios com o nome do exercício
+    $sql = "SELECT Exercises.ExerciseName, ExerciseRecords.Weight, ExerciseRecords.DateRecorded
+            FROM ExerciseRecords
+            INNER JOIN Exercises ON ExerciseRecords.ExerciseID = Exercises.ExerciseID";
+    $result = $conn->query($sql);
+
+    echo '<div class="container">
+        <h1>Exercise Records</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Exercise Name</th>
+                    <th>Weight</th>
+                    <th>Date Recorded</th>
+                </tr>
+            </thead>
+            <tbody id="records">';
+    if ($result->num_rows > 0) {
+        // Exibir registros de exercícios
+        while($row = $result->fetch_assoc()) {
+            echo "<tr><td>" . $row["ExerciseName"] . "</td><td>" . $row["Weight"] . "</td><td>" . $row["DateRecorded"] . "</td></tr>";
+        }
+    } else {
+        echo "<tr><td colspan='3'>0 results</td></tr>";
+    }
+    echo '</tbody>
+        </table>
+        <h2>Add Exercise Record</h2>
+        <form id="addRecordForm">
+            <label for="exerciseID">Exercise ID:</label>
+            <input type="text" id="exerciseID" name="exerciseID" required>
+            <label for="weight">Weight:</label>
+            <input type="text" id="weight" name="weight" required>
+            <label for="dateRecorded">Date Recorded:</label>
+            <input type="date" id="dateRecorded" name="dateRecorded" required>
+            <button type="submit">Add Record</button>
+        </form>
+    </div>';
+    $conn->close();
+    ?>
+</body>
+</html>

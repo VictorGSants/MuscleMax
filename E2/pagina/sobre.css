@@ -1,0 +1,153 @@
+body {
+  background-color: #ccc;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li .logout {
+  background-color: darkorange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-left: 10px; /* Adiciona um espaçamento à esquerda */
+}
+
+nav ul li .logout:hover {
+  background-color: #e69500; /* Tom mais escuro de darkorange */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 140, 0, 0.7); /* Altera a cor de fundo quando o mouse passa por cima */
+}
+
+
+.logo img {
+  height: 50px;
+}
+.foto img {
+  max-width: 30%;
+  height: auto;
+  margin-left: 30%;
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.8%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+nav ul li a  {
+  color: #f5f5f5; /* branco */
+  text-decoration: none;
+  transition: color 0.3s;
+}
+nav ul li a:hover  {
+  color: darkorange; 
+}
+
+
+nav ul li a::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  bottom: -5px;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+nav ul li a:hover::after {
+  opacity: 1;
+}
+
+.login {
+  background-color: darkorange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+.login:hover {
+  box-shadow: 0px 12px 16px rgba(1, 172, 224, 0.2);
+}
+
+/* Main */
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4%;
+}
+
+.sobre-main {
+  max-width: 400px;
+  text-align: center;
+}
+
+.sobrenosh1 {
+  color: gray;
+  margin-bottom: 5%;
+  border-bottom: 1px solid gray;
+}
+
+.texto-main {
+  letter-spacing: 2px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.t1 {
+  color: darkorange;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 0; /* Padding to increase apparent height */
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer label {
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+footer img {
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.email_{
+  color: white;
+}

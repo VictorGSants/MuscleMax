@@ -1,0 +1,144 @@
+body {
+    background-color: #2b2b2b; /* preto */
+    color: #f5f5f5; /* branco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Para garantir que o footer permaneça no fundo da página */
+}
+ 
+nav {
+    background-color: rgba(0, 0, 0, 0.7); /* preto opaco */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* para garantir que o nav fique acima do conteúdo */
+}
+
+nav .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f5f5f5; /* branco */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: darkorange; 
+}
+
+nav ul li .saudacao {
+    color: darkorange; /* Cor da saudação */
+    font-weight: bold;
+    font-size: 18px; /* Tamanho da fonte da saudação */
+    margin-right: 20px;
+    transition: color 0.3s;
+}
+
+nav ul li .saudacao:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 140, 0, 0.7);
+}
+
+nav ul li .logout {
+    background-color: darkorange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+nav ul li .logout:hover {
+    background-color: #e69500; /* Tom mais escuro de darkorange */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 140, 0, 0.7);
+}
+
+.content {
+    padding-top: 100px; /* Para garantir que o conteúdo não fique oculto sob o nav */
+    padding-bottom: 50px; /* Para deixar espaço para o footer */
+}
+
+.about-brand {
+    margin-top: 50px;
+    padding: 0 20px; /* Adicionando um espaço interno à div */
+}
+
+.about-brand h2 {
+    color: darkorange;
+    font-size: 28px;
+    text-align: left; /* Alinhando o título à esquerda */
+    margin-bottom: 10px; /* Adicionando um espaço abaixo do título */
+}
+
+.about-brand p {
+    color: #f5f5f5; /* branco */
+    font-size: 18px; /* Aumentando o tamanho do texto */
+    line-height: 1.5;
+    text-align: left; /* Alinhando o texto à esquerda */
+    max-width: 600px; /* Limitando a largura do parágrafo */
+    margin: 0; /* Removendo margens padrão do parágrafo */
+}
+
+.novotreino {
+    background-color: darkorange;
+    color: white;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 1%;
+    text-decoration: none;
+    margin-left: 1%;
+    margin-right: 45%;
+}
+
+.novotreino:hover {
+    background-color: #e69500; /* Tom mais escuro de darkorange */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 140, 0, 0.7);
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* preto opaco */
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+}
+
+footer label {
+    color: #f5f5f5; /* branco */
+    font-size: 16px;
+}
+
+footer img {
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.contact {
+    margin-left: 40%;
+}

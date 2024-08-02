@@ -1,0 +1,23 @@
+Treino: Treino B
+
+Exercício: Agachamento com Barra
+Descrição: 
+Séries: 4
+Repetições: 12
+Peso: 15.00
+Tempo de Descanso (segundos): 50
+
+Exercício: Leg Press
+Descrição: 
+Séries: 0
+Repetições: 0
+Peso: 0.00
+Tempo de Descanso (segundos): 0
+
+Exercício: Cadeira Extensora
+Descrição: 
+Séries: 0
+Repetições: 0
+Peso: 0.00
+Tempo de Descanso (segundos): 0
+

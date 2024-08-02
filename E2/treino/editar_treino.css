@@ -1,0 +1,79 @@
+/* Fonte Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    background: url('../img/pngtree-contemporary-fitness-and-gym-with-a-panoramic-city-and-sky-view-picture-image_3653380.jpg   ') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #ffffff; /* Texto em branco */
+    background-color: rgba(0, 0, 0, 0.7); /* Cor escura sobre a imagem */
+    background-blend-mode: darken; /* Mistura a cor escura com a imagem */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo do container com opacidade */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 80%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo do campo de entrada com opacidade */
+    color: #333333; /* Texto preto */
+}
+
+.help-block {
+    color: #ffcccc; /* Texto de erro em vermelho claro */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: darkorange; /* Cor do botão */
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #616161; /* Tom mais escuro de #007bff */
+}
+.btn-back {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: darkorange; /* Cor do botão */
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; /* Adiciona um espaçamento de 20px abaixo do botão */
+}
+
+.btn-back:hover {
+    background-color: #616161; /* Tom mais escuro de darkorange */
+}

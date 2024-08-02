@@ -1,0 +1,156 @@
+/* Fonte Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    background: url('../img/pngtree-contemporary-fitness-and-gym-with-a-panoramic-city-and-sky-view-picture-image_3653380.jpg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Cor escura sobre a imagem */
+    background-blend-mode: darken; /* Mistura a cor escura com a imagem */
+}
+
+.exercise {
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo dos detalhes do exercício com opacidade */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: rgba(110, 110, 110, 0.9); /* Fundo do container com opacidade */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 20%;
+    max-width: 800px;
+}
+.btn-export {
+    margin-left: 10px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: darkorange; /* Cor do botão */
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; /* Adiciona um espaçamento de 20px abaixo do botão */
+}
+
+.btn-export:hover {
+    background-color: #616161; /* Tom mais escuro de darkorange */
+}
+
+.btn-show-description {
+    background-color: darkorange; /* Cor do botão */
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    width: 60%;
+    color: #ffffff; /* Cor do texto */
+    padding: 10px 20px ; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+}
+
+.btn-show-description:hover {
+    background-color: rgba(110, 110, 110, 0.9); /* Fundo do container com opacidade */
+
+}
+
+.btn-close-description {
+    background-color: #f0f0f0; /* Cinza claro */
+    border: none;
+    color: #333; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;
+    margin-top: 10px; /* Espaçamento acima do botão */
+    margin-left: 50px; /* Margem à esquerda */
+}
+
+.btn-close-description:hover {
+    background-color: #505050; /* Cor de fundo mais escura no hover */
+}
+
+/* Estilo para o botão de adicionar exercício */
+.exercise-description {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    color: aliceblue;
+    background-color: rgba(110, 110, 110, 0.9);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 60%; /* Defina a largura da div */
+    max-width: 800px;
+    display: none; /* Por padrão, esconde a div */
+    float: right; /* Alinhe à direita */
+}
+
+.exercise h3 {
+    margin-top: 0;
+}
+
+.btn-remove {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #dc3545; /* Cor vermelha */
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 20px; /* Adiciona uma margem de 20px abaixo do botão */
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-remove:hover {
+    background-color: #c82333; /* Tom mais escuro de vermelho */
+}
+
+.exercise p {
+    margin: 5px 0;
+}
+
+.btn-back {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: darkorange; /* Cor do botão */
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    margin-bottom: 20px; /* Adiciona um espaçamento de 20px abaixo do botão */
+}
+
+.btn-back:hover {
+    background-color: #616161; /* Tom mais escuro de darkorange */
+}
+
+.btn-edit {
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: darkorange; /* Cor do botão */
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-bottom: 20px; /* Adiciona uma margem de 20px abaixo do botão */
+    transition: background-color 0.3s;
+}
+
+.btn-edit:hover {
+    background-color: #616161; /* Tom mais escuro de #007bff */
+}
+.exercise-description {
+    /* Restante do seu estilo... */
+
+    position: fixed; /* Define a posição fixa */
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+}

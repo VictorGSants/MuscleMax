@@ -1,0 +1,134 @@
+/* Adicione algumas estilizações básicas */
+body {
+    font-family: Arial, sans-serif; /* Fonte padrão para todo o corpo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    padding: 1%;
+    width: 300px;
+    margin: 10% auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.form-container h2 {
+    text-align: center;
+}
+
+.form-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-family: 'Arial', sans-serif; /* Melhora a fonte dos labels */
+}
+
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container select {
+    width: calc(100% - 16px); /* Usando calc() para subtrair a largura da borda */
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-family: Arial, sans-serif; /* Fonte melhorada para inputs e select */
+    transition: border-color 0.3s; /* Adiciona uma transição suave para a mudança da cor da borda */
+}
+
+.form-container input[type="email"]:focus,
+.form-container input[type="password"]:focus,
+.form-container select:focus {
+    border: 1px solid blue; /* Muda a cor da borda para azul quando o input está em foco */
+}
+
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: rgb(37, 37, 37);
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif; /* Fonte melhorada para o botão */
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: darkorange;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.login-link label {
+    display: block;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.login-link a {
+    text-decoration: none;
+    color: darkorange;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.login-link a:hover {
+    color: orange;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: black;
+    border-top: 2px solid #ccc;
+    color: white;
+}
+
+footer .home-link {
+    flex: 1;
+    text-align: center;
+}
+
+footer .home-link a {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+    border-bottom: 1px solid lightgray; /* Adiciona uma linha abaixo do link */
+    padding-bottom: 3px; /* Espaçamento para separar a linha do texto */
+    transition: color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+footer .home-link a:hover {
+    color: white; /* Muda a cor para branco quando o mouse está sobre o link */
+}
+
+footer .contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1;
+    gap: 5px;
+}
+
+footer .contact-info label {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+footer .contact-info i {
+    font-size: 16px;
+}
+
+footer .contact-info span {
+    font-size: 16px;
+}

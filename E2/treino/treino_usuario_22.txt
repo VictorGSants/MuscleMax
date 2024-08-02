@@ -1,0 +1,30 @@
+Treino: Treino A
+
+Exercício: Supino Inclinado
+Descrição: Levante a barra inclinada até os braços ficarem esticados, e abaixe-a até tocar o peito.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+
+Exercício: Crucifixo com Halteres
+Descrição: Deite-se em um banco e levante os halteres até que os braços fiquem retos, então abaixe-os até que fiquem alinhados com o peito.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+
+Exercício: Flexão de Braços
+Descrição: Deite-se no chão com as mãos apoiadas e os braços estendidos. Flexione os cotovelos e abaixe o corpo até que o peito quase toque o chão, depois empurre de volta para a posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+
+Exercício: Tríceps Testa
+Descrição: Deitado em um banco, segure uma barra com as mãos afastadas, abaixe-a em direção à testa até que os braços fiquem em um ângulo de 90 graus e depois retorne à posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+

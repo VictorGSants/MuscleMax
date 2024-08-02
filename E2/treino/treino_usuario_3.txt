@@ -1,0 +1,23 @@
+Treino: Treino B
+
+Exercício: Agachamento com Barra
+Descrição: Coloque a barra nas costas, afaste os pés na largura dos ombros, agache até que as coxas fiquem paralelas ao chão e volte à posição inicial.
+Séries: 4
+Repetições: 12
+Peso: 15.00
+Tempo de Descanso (segundos): 50
+
+Exercício: Leg Press
+Descrição: Sente-se no equipamento, coloque os pés na plataforma e empurre-a para longe até que as pernas fiquem quase retas, depois dobre os joelhos e volte à posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+
+Exercício: Cadeira Extensora
+Descrição: Sente-se na máquina, levante os pesos empurrando a plataforma para longe até que as pernas estejam esticadas, depois dobre os joelhos e volte à posição inicial.
+Séries: 
+Repetições: 
+Peso: 
+Tempo de Descanso (segundos): 
+

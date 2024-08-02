@@ -1,0 +1,143 @@
+body {
+    background-color: #2b2b2b; /* preto */
+    color: #f5f5f5; /* branco */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Para garantir que o footer permaneça no fundo da página */
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 1); /* preto opaco */
+    padding: 20px; /* Mantenha o padding original */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* para garantir que o nav fique acima do conteúdo */
+}
+
+nav .logo img {
+    height: 50px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center; /* Centraliza os itens verticalmente */
+    margin-left: 20px; /* Adiciona margem à esquerda */
+    margin-right: 20px; /* Adiciona margem à direita */
+}
+
+nav ul li {
+    margin-right: 20px; /* Mantenha a margem original */
+    display: flex; /* Para que os elementos fiquem em linha */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+nav ul li .saudacao {
+    color: darkorange; /* Cor da saudação */
+    font-weight: bold;
+    font-size: 18px; /* Tamanho da fonte da saudação */
+    margin-right: 5px; /* Adiciona um pouco de margem à direita */
+}
+
+nav ul li .logout {
+    background-color: darkorange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    margin-left: 10px; /* Adiciona um espaçamento à esquerda */
+}
+
+nav ul li a {
+    color: #f5f5f5; /* branco */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: darkorange; /* Muda a cor para darkorange quando o mouse está sobre o link */
+}
+
+button {
+    background-color: darkorange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10%; /* Ajuste o valor conforme necessário para posicionar o botão abaixo do nav */
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #e69500; /* Tom mais escuro de darkorange */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(255, 140, 0, 0.7);
+}
+
+table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+th {
+    background-color: darkorange;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #3b3b3b;
+}
+
+form {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+input[type="submit"] {
+    background-color: darkorange;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: orange;
+}
+
